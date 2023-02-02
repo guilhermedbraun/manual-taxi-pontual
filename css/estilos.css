@@ -1,0 +1,105 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body {
+background: url('../images/fundo.jpg') fixed;
+font-family: Arial;
+font-size: 12px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h1, h2, h3, h4 {
+font-family: Arial;
+margin: 10px 0;
+}
+
+h1, h2, h3 {
+background:#ccc;
+padding:5px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+h2, h3 {
+margin: auto;
+}
+
+h1, h2 {
+text-align: center;
+}
+
+#coluna-meio {
+width: 800px;
+height: auto;
+background: #fff;
+margin: auto;
+padding:20px;
+border-radius:10px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+ul {
+margin-left: 10px;
+}
+
+li {
+font-size: 13px;
+}
+
+ul li {
+margin-left: 20px;
+margin-top:5px;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+table {
+cursor:default;
+}
+
+p {
+margin-bottom: 20px;
+font-size: 13px;
+}
+
+td {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.pontual {
+    text-decoration: none;
+	color: #000000;
+}
+.pontual:hover {
+	color: #073ab3;
+}
+
+/* Rodapé */
+footer#rodape {
+    clear: both;
+    height: auto;
+	margin-top: 30px;
+	margin-bottom: -20px;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape span {
+    display: inline-block;
+    position: relative;
+    color: #777777;
+}
